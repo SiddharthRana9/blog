@@ -46,6 +46,8 @@ const WritePage = () => {
               break;
             case "running":
               console.log("Upload is running");
+              console.log(file);
+              console.log(storageRef);
               break;
           }
         },
@@ -121,7 +123,7 @@ const WritePage = () => {
               type="file"
               id="image"
               onChange={(e) => setFile(e.target.files[0])}
-              style={{ display: "none" }}
+              
             />
             <button className={styles.addButton}>
               <label htmlFor="image">

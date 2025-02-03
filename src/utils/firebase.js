@@ -6,11 +6,11 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.FIREBASE,
-  authDomain: "blog-214c3.firebaseapp.com",
-  projectId: "blog-214c3",
-  storageBucket: "blog-214c3.appspot.com",
-  messagingSenderId: "543278153676",
-  appId: "1:543278153676:web:0ac96f0c9fcd8bdae7a769"
+  authDomain: "fir-1fb2e.firebaseapp.com",
+  projectId: "fir-1fb2e",
+  storageBucket: "fir-1fb2e.firebasestorage.app",
+  messagingSenderId: "854974467920",
+  appId: "1:854974467920:web:e3440880fd11a45d832655"
 };
 
 // Initialize Firebase

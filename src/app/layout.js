@@ -8,6 +8,8 @@ import AuthProvider from "@/providers/AuthProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const dynamic ='force-dynamic';
+
 export const metadata = {
   title: "Sid Dev Blog App",
   description: "The best blog app!",
